@@ -1,22 +1,23 @@
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom/client';
 import StarRating from './StarRating';
-/* import './index.css';
-import App from './App'; */
+import './index.css';
+import App from './App'; 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <StarRating starNum={5} className={'test'} messages={['Terrible', 'bad', 'Okay', 'Good', 'Amazing']} defaultRating={4}/>
+{/*     <StarRating starNum={5} className={'test'} messages={['Terrible', 'bad', 'Okay', 'Good', 'Amazing']} defaultRating={4}/>
     <StarRating starNum={6} color={'red'}/>
     <StarRating size={25}/>
-    <TestRating />
+    <TestRating /> */}
 
-{/*     <App />
- */}  </React.StrictMode>
+{     <App />}  
+
+</React.StrictMode>
 );
 
-function TestRating() {
+/* function TestRating() {
   const [movieRating, setMovieRating] = useState(0);
 
   return (
@@ -33,4 +34,4 @@ function TestRating() {
     </>
 
   )
-}
+} */
